@@ -1,0 +1,108 @@
+.sing-up-main-container {
+  background-color: #080710;
+  height: 133vh;
+}
+
+@media screen and (min-width: 768px) {
+  .sing-up-main-container {
+    height: 120vh;
+  }
+}
+
+.sign-up-form-text {
+  height: auto;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.13);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+
+  padding-bottom: 25px;
+  padding-top: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 110px;
+  border-color: chartreuse;
+}
+
+@media screen and (min-width: 768px) {
+  .sign-up-form-text {
+    width: 800px;
+    height: 800px;
+    margin-top: 60px;
+  }
+}
+
+.sign-up-heading {
+  color: #ffffff;
+  text-align: center;
+}
+
+.sign-up-input {
+  display: block;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  border: none;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+::placeholder {
+  color: #e5e5e5;
+}
+
+.sing-up-label {
+  display: block;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+.sign-up-button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #080710;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sign-up-footer-paragraph {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 18px;
+}
+
+.sing-up-link-lelement {
+  color: goldenrod;
+  padding-left: 5px;
+  text-decoration: none;
+}
+
+.sign-up-star {
+  color: red;
+  font-size: 25px;
+  padding-left: 5px;
+}
